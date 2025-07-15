@@ -1,7 +1,7 @@
 class Header {
   selectors = {
     root: '[data-js-header ]',
-    overlay: '[data-js-header-overlay',
+    overlay: '[data-js-header-overlay]',
     burgerButton: '[data-js-header-burger-button]',
   }
 
