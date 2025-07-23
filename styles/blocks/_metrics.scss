@@ -1,6 +1,6 @@
 @use '../helpers' as *;
 
-.metrics {
+.metrics  {
   --columns: 3;
 
   &--4-cols {
@@ -42,6 +42,7 @@
   &__item  {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: start;
     row-gap: rem(10);
     padding: rem(50);
 
